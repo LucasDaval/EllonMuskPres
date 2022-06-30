@@ -1,138 +1,126 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .title {
-    color: snow;
-    margin-bottom: 50px;
-    text-decoration: underline;
-    font-family: 'Roboto', sans-serif;
+  color: snow;
+  margin-bottom: 50px;
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
 }
 
 .App {
-    background-color: #1C1C1C;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #1c1c1c;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
-    position: relative;
+  position: relative;
 }
 
-.imagePlatypus:hover {
-    cursor: pointer;
+.imageEM {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageEM:hover {
+  cursor: pointer;
 }
 
 .layers {
-    position: absolute;
-    /*background-color: rgba(255, 0, 0, 0.22);*/
-    height: 100%;
-    width: 100%;
+  position: absolute;
+  /*background-color: rgba(255, 0, 0, 0.22);*/
+  height: 100%;
+  width: 100%;
 }
 
-
 .firstLine {
-    display: flex;
-    /*background-color: rgba(0, 255, 0, 0.3);*/
-    height: 100px;
-    margin-top: 40px;
+  display: flex;
+  /*background-color: rgba(0, 255, 0, 0.3);*/
+  height: 100px;
 }
 
 .headWrapper {
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-    position: relative;
-    justify-content: space-around;
-    width: 30%;
-    margin-left: 30px;
-    /*background-color: rgba(255, 255, 0, 0.38);*/
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  position: relative;
+  justify-content: space-around;
+  width: 25%;
+  /*background-color: rgba(255, 255, 0, 0.38);*/
 }
 
 .head {
-    /*background-color: rgba(0, 0, 0, 0.31);*/
-    height: 100%;
-    left: 100px;
-    width: 100px;
-    position: absolute;
+  /*background-color: rgba(0, 0, 0, 0.31);*/
+  height: 100%;
+  left: 100px;
+  width: 100px;
+  position: absolute;
 }
-
-.head {
-    cursor: pointer;
-}
-
 
 .duck {
-    height: 50px;
-    /*background-color: hotpink;*/
-    width: 50%;
-    position: absolute;
-    bottom: -14px;
-
-}
-
-.duck:hover {
-    cursor: pointer;
+  height: 50px;
+  /*background-color: hotpink;*/
+  width: 50%;
+  position: absolute;
+  bottom: -14px;
 }
 
 .fur {
-    /*background-color: rgba(128, 0, 128, 0.24);*/
-    width: 30%;
-    height: 100%;
+  /*background-color: rgba(128, 0, 128, 0.24);*/
+  width: 945px;
+  height: 627px;
 }
 
 .fur:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .tail {
-    width: 25%;
+  width: 25%;
 }
-
-.tail:hover {
-    cursor: pointer;
-}
-
 
 .secondLine {
-    display: flex;
-    /*background-color: rgba(0, 0, 255, 0.28);*/
-    height: 60px;
-    align-items: center;
-    justify-content: space-around;
-    width: 30%;
-    margin: 55px auto;
-    position: relative;
+  display: flex;
+  /*background-color: rgba(0, 0, 255, 0.28);*/
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  margin: 55px auto;
+  position: relative;
 }
 
 .feet {
-    height: 100%;
-    width: 100px;
-    /*background-color: rgba(0, 0, 0, 0.44);*/
-    margin-right: 10px;
-    position: absolute;
-    left: -60px;
+  height: 100%;
+  width: 100px;
+  /*background-color: rgba(0, 0, 0, 0.44);*/
+  margin-right: 10px;
+  position: absolute;
+  left: -60px;
 }
 
-
 .feet:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .spur {
-    height: 100%;
-    width: 100px;
-    /*background-color: rgba(72, 61, 139, 0.27);*/
-    right: 33px;
-    position: absolute;
+  height: 100%;
+  width: 100px;
+  /*background-color: rgba(72, 61, 139, 0.27);*/
+  right: 33px;
+  position: absolute;
 }
 
 .spur:hover {
-    cursor: pointer;
+  cursor: pointer;
 }

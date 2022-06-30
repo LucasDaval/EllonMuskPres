@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import imagePlatypus from "./images/platypus.svg";
+import imageEM from "./images/EM.png";
 import Modal from "./modal/modal";
 import {useState} from "react";
 
@@ -21,7 +21,6 @@ function App() {
 
   return (
     <div className={styles.App}>
-      <h1 className={styles.title}>Click on a body part to learn more about it</h1>
       {
         openModal ?
         <Modal closeModal={closeModal} element={element}/> : null
@@ -32,19 +31,13 @@ function App() {
         <div className={styles.layers}>
           <div className={styles.firstLine}>
             <div className={styles.headWrapper}>
-              <div onClick={() => showModal("head")} className={styles.head}/>
-              <div onClick={() => showModal("duck")} className={styles.duck}/>
+              <div className={styles.head}/>
+              <div className={styles.duck}/>
             </div>
             <div onClick={() => showModal("fur")} className={styles.fur}/>
-            <div onClick={() => showModal("tail")} className={styles.tail}/>
-          </div>
-
-          <div className={styles.secondLine}>
-            <div onClick={() => showModal("feet")} className={styles.feet}/>
-            <div onClick={() => showModal("spur")} className={styles.spur}/>
           </div>
         </div>
-        <img className={styles.imagePlatypus} src={imagePlatypus} alt={"platypus"}/>
+        <img className={styles.imageEM} src={imageEM} alt={"Ellon Musk"}/>
       </div>
     </div>
   );
