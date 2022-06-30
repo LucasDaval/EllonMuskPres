@@ -1,0 +1,44 @@
+.wrapperBody {
+    height: 500px;
+    width: 500px;
+    background-color: #eeecec;
+    border-radius: 10px;
+    z-index: 10;
+    position: absolute;
+    padding: 10px;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform:scale(1);
+    }
+}
+
+.headModal {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.headModal p {
+    margin-right: 10px;
+}
+
+.headModal p:hover {
+    cursor: pointer;
+}
+
+.pWrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pWrapper p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
